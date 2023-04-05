@@ -1,0 +1,86 @@
+.videoyoutube{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    .cuadroYoutube{
+        width: 545px;
+        height: 280px;
+        margin: 10px;
+    }
+}
+
+p{    
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    text-align: justify;
+}
+
+
+.cajaCard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+    margin: 10px;
+    justify-content: space-around; 
+}
+
+
+.cardBorde{
+    padding:10px;
+    border: 1px dotted $color;
+    margin: 10px;
+}
+
+@media (max-width:720px) {
+    .cajaCard{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:540px) {
+    .cajaCard{
+        grid-template-columns: 100%;        
+        place-items: center;
+    }
+}
+
+
+
+.gridPrueba{
+    display: grid;
+    grid-template-columns: auto 40%;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.cajaImagen img{
+    border-radius: 0 20px 20px 0;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.cajaTexto{
+    background-color: $color;
+}
+.tituloCaja{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding: 0 30px;
+    padding-top: 30px;
+}
+.cajaTexto p{
+    color: white;
+}
+@media (max-width:720px) {
+    .gridPrueba{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media (max-width:510px) {
+    .gridPrueba{
+        grid-template-columns: 100%;
+    }
+}

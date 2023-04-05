@@ -1,0 +1,30 @@
+/* VENTAS */
+.tienda{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+    margin: 10px;
+    justify-content: space-around;
+    .bordes{
+        padding:10px;
+        border: 1px dotted $color;
+        margin: 10px;
+    }
+}
+
+.textCard{
+    margin: 0px;
+}
+
+@media (max-width:720px) {
+    .tienda{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:540px) {
+    .tienda{
+        grid-template-columns: 100%;
+        place-items: center;
+    }
+}

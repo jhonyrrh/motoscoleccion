@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="¿Tienes alguna pregunta o necesitas más información sobre nuestra venta de motos a escala o modelos de motos de Moto GP a escala? Contáctanos ahora y estaremos encantados de ayudarte.">
+    <meta name="keywords" content="Comprar moto a escala, Delivery Moto GP, Información de moto gp, Venta de motos, Motos coleccionables, Moto GP, Compra de motos">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/estilos.css">
+    <link rel="stylesheet" href="../style/sass.css">
     <script src="https://kit.fontawesome.com/aa69e32c8d.js" crossorigin="anonymous"></script>
-    <title>FULL RIDERS - Motos de Colección</title>    
+    <title>FULL RIDERS - Contacto</title>    
     <link rel="icon" type="image/x-icon" href="../images/iso.png">
 </head>
 <body>
@@ -58,15 +60,44 @@
         </div> 
     </main>
     
-    <section class="padre">
-        <div class="hijo">
-            <img src="../images/ducati.jpg" alt="ducati">
-            <p>BMW S1000RR - Pieza de colección a escala 1:12 con excelentes detalles.</p>
+    <section class="d-flex justify-content-center">
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="apellido">Apellido:</label>
+              <input type="text" class="form-control" id="apellido" required>
+            </div>
+          </div>
         </div>
-        <div class="hijo">
-            <img src="../images/h2r.jpg" alt="kawasaki">
-            <p>BMW 1250R GS - Pieza de colección a escala 1:12 con excelentes detalles.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" class="form-control" id="telefono" required>
+            </div>
+          </div>
         </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-danger my-3">Enviar</button>
+      </form>
+      
+      
     </section>
 
 <section>
