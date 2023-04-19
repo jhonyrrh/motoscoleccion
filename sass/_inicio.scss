@@ -11,7 +11,6 @@
 }
 
 p{    
-    font-family: 'Roboto', sans-serif;
     margin: 30px;
     text-align: justify;
 }
@@ -30,6 +29,7 @@ p{
     padding:10px;
     border: 1px dotted $color;
     margin: 10px;
+    width: 18rem;
 }
 
 @media (max-width:720px) {
@@ -65,7 +65,6 @@ p{
     background-color: $color;
 }
 .tituloCaja{
-    font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 30px;
     padding: 0 30px;
@@ -83,4 +82,11 @@ p{
     .gridPrueba{
         grid-template-columns: 100%;
     }
+}
+
+.derechos{
+    text-align: center;
+}
+.imgLogo{
+    width: 100%;
 }

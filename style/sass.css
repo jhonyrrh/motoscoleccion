@@ -6,10 +6,7 @@
 
 body {
   background-color: rgb(255, 250, 244);
-}
-
-img {
-  width: 100%;
+  font-family: "Roboto", sans-serif;
 }
 
 footer {
@@ -17,14 +14,7 @@ footer {
   background-color: red;
 }
 
-.redes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .titulo {
-  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,6 +25,7 @@ footer {
 
 h1 {
   font-size: 40px;
+  font-weight: bold;
   color: red;
 }
 
@@ -51,7 +42,6 @@ h1 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
   margin: 30px;
   text-align: justify;
 }
@@ -68,6 +58,7 @@ p {
   padding: 10px;
   border: 1px dotted red;
   margin: 10px;
+  width: 18rem;
 }
 
 @media (max-width: 720px) {
@@ -101,7 +92,6 @@ p {
 }
 
 .tituloCaja {
-  font-family: "Roboto", sans-serif;
   color: white;
   font-size: 30px;
   padding: 0 30px;
@@ -122,6 +112,14 @@ p {
     grid-template-columns: 100%;
   }
 }
+.derechos {
+  text-align: center;
+}
+
+.imgLogo {
+  width: 100%;
+}
+
 /* VENTAS */
 .tienda {
   display: grid;
@@ -151,6 +149,14 @@ p {
     place-items: center;
   }
 }
+.card {
+  width: 18rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
 /* GRID DE GALERIA */
 .cajaGaleria {
   display: grid;
